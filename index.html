@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+       box-sizing: border-box;
+    }
+    .container{
+      margin: auto;
+      padding: 10px;
+      background-color: #aeaeae;
+      width: 300px;
+    }
+    .container h2{
+      padding:  10px 0 10px 0;
+      background-color: #fff;
+    }
+    input{
+      border: 2px solid skyblue;
+      margin-bottom: 5px;
+      width: 100%;
+      padding: 10px;
+    }
+    button{
+      border: 2px solid skyblue;
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    .show-number{
+      background-color: #fff;
+      width: 100%;
+      text-align: center;
+      font-size: 25px;
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Generate Random Number</h2>
+    <input class="input-min" type="number" placeholder="Min">
+    <input class="input-max" type="number" placeholder="Max">
+    <button class="generate" type="button">generate</button>
+    <div class="show-number"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
